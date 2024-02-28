@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: darkgray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 10px solid darkgray;
+    border-radius: 10px;
+}
+button:hover {
+    background: blue;
+}
+
+#miniMapCanvas {
+    background: black;
+}
+#networkCanvas {
+    background: black;
+}
+#carCanvas {
+    background: #2a5;
+}
